@@ -30,7 +30,7 @@ void main() {
       print('║──────────────────────────────────────────────────');
 
       do {
-        stdout.write('║  Guess the number between 1 and 100 : ');
+        stdout.write('║  Guess the number between 1 and $max : ');
 
         var input = stdin.readLineSync();
 
